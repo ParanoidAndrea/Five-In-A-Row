@@ -1,5 +1,5 @@
 # Five in a Row
-  Name: Yanyan Zhou
+  Author: Yanyan Zhou
   
   Environment: Visual Studio 2019
   
