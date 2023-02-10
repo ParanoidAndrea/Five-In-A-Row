@@ -1,13 +1,15 @@
-﻿// Five In A Row.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-/*
-This code implements a basic Five In A Row game where two players take turns placing their pieces
-('O' for player 1 and 'X' for player 2) on a 15x15 grid.
-The board is initialized with blank spaces, and the players take turns entering the rowand column of their move.
-The move is considered valid only if the chosen cell is within the boundaries of the gridand is unoccupied.
-The function `hasWon` checks if the player has won the game
-after making a move by counting the number of consecutive pieces in all four directions
-(horizontally, vertically, and diagonally).
-If the count reaches 5, the player has won and the game ends.
+ /*
+  File: Five In A Row.cpp 
+  Author: Yanyan Zhou
+  Date: January 2023
+  Description: 
+    The text describes a program that plays the Five In A Row game. 
+    It involves two players who alternate turns to place their markers ('O' for the first player and 'X' for the second player) 
+    on a 15x15 grid that starts with empty spaces. 
+    The players input the row and column of their move, but it will only be accepted if it falls within the grid's boundaries and the cell is unoccupied. 
+    The "hasWon" function determines if a player has won the game 
+    by counting the consecutive pieces in all four directions (horizontally, vertically, and diagonally). 
+    If the count reaches 5, the player wins, and the game concludes.
 */
 
 #include <iostream>
