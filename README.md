@@ -5,7 +5,15 @@
   
   Date: 2023/1/15
 # Description 
-The text describes a program that plays the Five In A Row game. It involves two players who alternate turns to place their markers ('O' for the first player and 'X' for the second player) on a 15x15 grid that starts with empty spaces. The players input the row and column of their move, but it will only be accepted if it falls within the grid's boundaries and the cell is unoccupied. The "hasWon" function determines if a player has won the game by counting the consecutive pieces in all four directions (horizontally, vertically, and diagonally). If the count reaches 5, the player wins, and the game concludes.
+The code implements a basic Five In A Row game using C++. The game is played on a 15x15 grid represented by a 2D char array board.
+
+The game starts with the initialization of the board using the function initBoard which sets all cells to blank spaces. The players take turns making moves by entering the row and column of their desired move. The move is considered valid if the cell is within the bounds of the grid and is unoccupied. The function isValidMove checks if a move is valid.
+
+After each move, the function hasWon is called to check if the player has won the game by counting the number of consecutive pieces in all four directions (horizontally, vertically, and diagonally). If the count reaches 5, the player has won and the game ends.
+
+The game alternates between two players, player 1 ('O') and player 2 ('X'), until one player wins. The game displays the current state of the board after each move, and prompts the player to enter their move. The game ends with a message indicating which player has won.
+
+
 # Directory Structure
 
     ├── ReadMe.md               // User Guide
